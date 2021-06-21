@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .icone {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .foto {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Menu -->
+    <h2 id="ini"></h2>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#ini">Início</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#sobre">Sobre<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#formulario">Formulário</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- /Menu -->
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/03/O-que-e-CSS-Aprenda-sobre-CSS-com-este-Guia-Basico-1280x720.png" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/103480911/original/f5aa8f3579b2c7c5756a038e922e9f12765616b8/fix-your-html-css-javascript-or-jquery-bugs.jpg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://i.ytimg.com/vi/EiZbhsVY2Dk/maxresdefault.jpg" alt="Terceiro Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <!-- /carousel -->
+    <h2 id="sobre">
+        </h1>
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center bg-dark pb-5">
+                <div class="col-md-12 text-center w-100">
+                    <h1 class="text-white fonte mt-4 ">Antonio Lucas Barbosa Ferreira</h1>
+                </div>
+            </div>
+        </div>
+        <img class="img-fluid rounded-circle rounded mx-auto d-block foto" src="assets/img/foto.jpg" alt="Antonio Lucas">
+
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Sobre mim</h1>
+                <p class="lead">Desenvolvedor Full Stack Java Júnior estudando na Generation Brasil. Estudante de Ciência da Computação e Ciência e Tecnologia na Universidade Federal do ABC.</p>
+            </div>
+        </div>
+        <!-- /Jumbotron -->
+
+        <h2 id="projetos"></h2>
+        <!-- Cards -->
+        <div class="container">
+            <h4 class="text-center fonte font-weight-bold ">Meus Projetos</h4>
+            <hr>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-3 m-5">
+                    <div class="card border text-center border-radius" style="width: 18rem;">
+                        <img class="card-img-top border-radius " src="assets/img/neoservice.png" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h4 class="card-title fonte font-weight-bold">NeoService</h4>
+                            <p class="card-text">Projeto desenvolvido com o intuito de auxiliar o contato entre empresas e candidatos a empregos em trabalhos temporário.</p>
+                            <div class="">
+                                <a href="https://neo-service.000webhostapp.com/" target="_blank" class="btn btn-dark text-uppercase w-100">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-5">
+                    <div class="card border text-center border-radius" style="width: 18rem;">
+                        <img class="card-img-top border-radius " src="assets/img/askmarinho.jpeg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h4 class="card-title fonte font-weight-bold">AskMarinho</h4>
+                            <p class="card-text">Projeto desenvolvido em cima de um dos problemas sociais da ONU a fim de deixar a população mais educada com conteúdos relacionados a educação sexual.</p>
+                            <div class="">
+                                <a href="assets/img/askmarinho.jpeg" target="_blank" class="btn btn-dark text-uppercase w-100">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- /Cards -->
+
+            <h2 id="formulario"></h2>
+            <!-- Texto e vídeo -->
+            <div class="row mt-5 mb-5">
+
+                <div class="col-md-6">
+                    <h3>Texto teste</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque officiis ab voluptatem. Dolorum delectus minima itaque doloribus commodi distinctio nam accusantium saepe eius eligendi? Hic dolorum iusto necessitatibus facere cumque!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum amet, fugiat perferendis dolore sapiente libero blanditiis nemo beatae excepturi mollitia officia laborum animi delectus nulla, incidunt dolores facere vitae dicta?</p>
+                </div>
+
+                <div class="col-md-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>
+            <!-- /Texto e vídeo -->
+
+
+            <!-- Form -->
+            <div class="row mt-5 mb-5">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Endereço de email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Select de exemplo</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect2">Exemplo de select múltiplo</label>
+                            <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.1510882178964!2d-46.44536678538572!3d-23.491066864884395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce617cb69fd0cb%3A0x5053a1afb2d83bd2!2sR.%20Salvador%20de%20Medeiros%2C%20145%20-%20S%C3%A3o%20Miguel%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008010-020!5e0!3m2!1spt-BR!2sbr!4v1623855356259!5m2!1spt-BR!2sbr"
+                        width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" id="mapa"></iframe>
+                </div>
+            </div>
+            <!-- /Form -->
+
+
+            <hr>
+            <footer>
+                <div class="row mb-3">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <a href="https://www.linkedin.com/in/antonio-lucas-2a7327183/" target="_blank" class="p-3">
+                            <img class="icone" src="assets/img/linkedin.png" alt="">
+                        </a>
+                        <a href="https://github.com/AntLucas" target="_blank" class="p-3">
+                            <img class="icone" src="assets/img/github.png" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/ant_luc/" target="_blank" class="p-3">
+                            <img class="icone" src="assets/img/instagram.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">
+                            Todos os direitos reservados: Antonio Lucas &copy
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
