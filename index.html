@@ -25,7 +25,7 @@
 <body>
     <!-- Menu -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#ini">Início</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
@@ -55,61 +55,62 @@
     </nav>
     <!-- /Menu -->
     <!-- carousel -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div id="ini" class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/03/O-que-e-CSS-Aprenda-sobre-CSS-com-este-Guia-Basico-1280x720.png" alt="Primeiro Slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/103480911/original/f5aa8f3579b2c7c5756a038e922e9f12765616b8/fix-your-html-css-javascript-or-jquery-bugs.jpg" alt="Segundo Slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="https://i.ytimg.com/vi/EiZbhsVY2Dk/maxresdefault.jpg" alt="Terceiro Slide">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
-        </a>
-    </div>
-    <!-- /carousel -->
-
-
-    <div class="container-fluid">
-        <div class="row d-flex justify-content-center bg-dark pb-5">
-            <div class="col-md-12 text-center w-100">
-                <h1 id="sobre" class="text-white fonte mt-4 ">Antonio Lucas Barbosa Ferreira</h1>
-            </div>
-        </div>
-    </div>
-    <img class="img-fluid rounded-circle rounded mx-auto d-block foto" src="assets/img/foto.jpg" alt="Antonio Lucas">
-
-    <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Sobre mim</h1>
-            <p class="lead">Desenvolvedor Full Stack Java Júnior estudando na Generation Brasil. Estudante de Ciência da Computação e Ciência e Tecnologia na Universidade Federal do ABC.</p>
-        </div>
-    </div>
-    <!-- /Jumbotron -->
-
-
-    <!-- Cards -->
     <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div id="ini" class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/03/O-que-e-CSS-Aprenda-sobre-CSS-com-este-Guia-Basico-1280x720.png" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/103480911/original/f5aa8f3579b2c7c5756a038e922e9f12765616b8/fix-your-html-css-javascript-or-jquery-bugs.jpg" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://i.ytimg.com/vi/EiZbhsVY2Dk/maxresdefault.jpg" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+        <!-- /carousel -->
+
+
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center bg-dark pb-5">
+                <div class="col-md-12 text-center w-100">
+                    <h1 id="sobre" class="text-white fonte mt-4 ">Antonio Lucas Barbosa Ferreira</h1>
+                </div>
+            </div>
+        </div>
+        <img class="img-fluid rounded-circle rounded mx-auto d-block foto" src="assets/img/foto.jpg" alt="Antonio Lucas">
+
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Sobre mim</h1>
+                <p class="lead">Desenvolvedor Full Stack Java Júnior estudando na Generation Brasil. Estudante de Ciência da Computação e Ciência e Tecnologia na Universidade Federal do ABC.</p>
+            </div>
+        </div>
+        <!-- /Jumbotron -->
+
+
+        <!-- Cards -->
+
         <h4 id="projetos" class="text-center fonte font-weight-bold ">Meus Projetos</h4>
         <hr>
         <div class="row d-flex justify-content-center">
-            <div class="col-md-3 m-5">
+            <div class="col-md-3 m-3 d-flex justify-content-center">
                 <div class="card border text-center border-radius" style="width: 18rem;">
                     <img class="card-img-top border-radius " src="assets/img/neoservice.png" alt="Imagem de capa do card">
                     <div class="card-body">
@@ -121,7 +122,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 m-5">
+            <div class="col-md-3 m-3 d-flex justify-content-center">
                 <div class="card border text-center border-radius" style="width: 18rem;">
                     <img class="card-img-top border-radius " src="assets/img/askmarinho.jpeg" alt="Imagem de capa do card">
                     <div class="card-body">
@@ -137,6 +138,8 @@
 
         <!-- /Cards -->
 
+
+
         <!-- Texto e vídeo -->
         <div class="row mt-5 mb-5">
 
@@ -147,7 +150,7 @@
             </div>
 
             <div class="col-md-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="w-100" width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
         </div>
